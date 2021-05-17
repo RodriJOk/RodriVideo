@@ -81,7 +81,8 @@
     border-right: 0px;
     border-bottom: 2px solid #fff;
     font-size: 16px;
-    font-family: 'Muli', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
     margin-bottom: 20px;
     padding: 0px 20px;
     outline: none; 
@@ -90,7 +91,7 @@
 }
 
 ::placeholder{
-    color: #fff;
+    color: rgb(233, 226, 226);
 }
 
 .button{
@@ -101,7 +102,7 @@
     cursor: pointer;
     font-size: 16px;
     font-weight: bold;
-    font-family: 'Mull', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     height: 50px;
     letter-spacing: 1px;
     margin: 10px 0px;
@@ -111,7 +112,7 @@
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    font-family: 'Monserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .login__container--section a{
@@ -119,11 +120,20 @@
     text-decoration: none;
     color: #fff;
     cursor: pointer;
-    font-size: 14px;
-    font-weight: 300;
-    /*font-family: 'Monserrat', sans-serif;*/
+    font-size: 16px;
+    font-weight: bold;
     height: 50px;
-    /* letter-spacing: 1px; */
+    margin: 0 auto;
+    padding-top: 16px;
+}
+
+.login__container--section a:hover{
+    text-decoration: underline;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16.5px;
+    font-weight: bold;
+    height: 50px;
     margin: 0 auto;
     padding-top: 16px;
 }
