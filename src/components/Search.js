@@ -13,11 +13,15 @@ const Search = (props)=>{
     return(
         <main className="main">
             <h2 className="main__title">¿Que quieres ver hoy?</h2>
-            <input 
-                className="main__input" 
-                type="text" 
-                placeholder="Buscar ..."
-                onKeyUp={handlerSearch}></input>
+            <div className="main__search">
+                <input 
+                    className="main__search--input" 
+                    type="text" 
+                    placeholder="Buscar ..."
+                    onKeyUp={handlerSearch}/>
+                <i class="fas fa-search"></i>
+            </div>
+
         </main>
     )
 }
